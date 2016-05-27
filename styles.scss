@@ -1,0 +1,48 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+}
+
+#splash{
+  height: 35rem;
+}
+
+
+/*NAV Bar styling*/
+#navigation{
+
+}
+
+#navbar {
+  text-align: center;
+  padding: 0;
+}
+
+#navbar li{
+  margin-right: .7em;
+  display: inline-block;
+}
+
+// Projects
+
+.projects{
+  overflow: hidden;
+}
+
+.proj{
+  display: block;
+  width: 48%;
+  margin-left:10px;
+  height: auto;
+  float: left;
+}
